@@ -29,14 +29,14 @@ public class Main {
     for (int value : array2) {
         System.out.println(value);
     }
-
+// хуйпиздавагиначмодавалкалесбиянкапидормудилапидорас
     int[][] dem2Arr = new int[2][5];
     for (int[] row : dem2Arr) {
         for (int value : row) {
             System.out.print(value + " ");
         }
         System.out.println();
-        System.out.println();
+        System.out.println("ХУЙ");
     }
 
         float N = sc.nextInt();
