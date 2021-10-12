@@ -6,16 +6,17 @@ import java.util.Scanner;
 
 public class test {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
 
-        sc.useLocale(Locale.US);
-//        int n1 = sc.nextInt();
-//        System.out.println(n1);
-//        double n2 = sc.nextDouble();
-//        System.out.println(n2);
-
-        System.out.println((-3) % 3);
-        System.out.println((12.72) % 3);
+        int a = sc.nextInt();
+        if (a % 10 == 1) {
+            System.out.println(a + " TOPT");
+        } else if (a > 1 && a < 5) {
+            System.out.println(a + " TOPTA");
+        } else if (a == 13) {
+            System.out.println(a + " TOPTA");
+        } else {
+            System.out.println(a + " TOPTOB");
+        }
     }
 }
