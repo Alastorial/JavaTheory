@@ -1,4 +1,4 @@
-package ru.Alastorial.test1;
+package ru.Alastorial.Main;
 
 import java.util.Locale;
 import java.util.Scanner;
