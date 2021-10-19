@@ -5,7 +5,7 @@ public class Person {
     private double height;
 
     public Person(String name) { // метод должен быть назван как класс (это конструктор)
-//        System.out.println("вызван класс");
+        System.out.println("вызван конструктор");
         if (name == null) {
             name = "default name";
         }
