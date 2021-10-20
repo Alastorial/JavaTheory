@@ -1,6 +1,5 @@
 package ru.Alastorial.Main;
 
-import javax.imageio.plugins.jpeg.JPEGImageReadParam;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -8,10 +7,47 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        workWithStatic();
 
-//        workWithCalc();
+        Rectangle r = new Rectangle(2, 5);
+        showInfo(r);
+        formatRectToPalka(r, 6);
+        showInfo(r);
+        Square s = new Square(4);
+        showInfo(s);
+        s.setSize(16);
+        s.setHeigth(6);
+        showInfo(s);
+        Rectangle someRec = s;
+        formatRectToPalka(someRec, 7);
+        showInfo(someRec);
 
+
+        //        workWithHero();
+
+        //        workWithStatic();
+
+        //        workWithCalc();
+
+    }
+
+    private static void showInfo(Rectangle r) {
+        System.out.println(r.getWidth() + " x " + r.getHeigth());
+    }
+
+    private static void formatRectToPalka(Rectangle r, int baseSize) {
+        r.setWidth(baseSize);
+        r.setHeigth(baseSize * 2);
+    }
+
+    private static void workWithHero() {
+        Hero hero = new Hero("Рабочий");
+//        System.out.println(hero.getPhrase());
+        AlyansHero hero2 = new AlyansHero("Крестьянин");
+        Hero[] heroes = {hero, hero2};
+
+        for (Hero h: heroes) {
+            System.out.println(h.getPhrase());
+        }
     }
 
     private static void workWithStatic() {
