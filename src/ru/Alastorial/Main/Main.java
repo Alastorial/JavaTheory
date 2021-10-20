@@ -18,7 +18,7 @@ public class Main {
         s.setHeigth(6);
         showInfo(s);
         Rectangle someRec = s;
-        formatRectToPalka(someRec, 7);
+//        formatRectToPalka(someRec, 7);
         showInfo(someRec);
 
 
