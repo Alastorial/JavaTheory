@@ -1,6 +1,7 @@
 package ru.Alastorial.Main;
 
 public class Rectangle extends Shape {
+
     private int width;
     private int heigth;
 
@@ -9,9 +10,6 @@ public class Rectangle extends Shape {
         this.heigth = heigth;
     }
 
-    public Rectangle(int width) {
-        this.width = this.heigth = width;
-    }
 
     public int getWidth() {
         return width;

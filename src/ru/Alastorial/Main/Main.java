@@ -14,11 +14,14 @@ public class Main {
         showInfo(r);
         Square s = new Square(4);
         showInfo(s);
+
         s.setSize(16);
+        showInfo(s);
         s.setHeigth(6);
         showInfo(s);
+
         Rectangle someRec = s;
-//        formatRectToPalka(someRec, 7);
+        formatRectToPalka(someRec, 7);
         showInfo(someRec);
 
 
