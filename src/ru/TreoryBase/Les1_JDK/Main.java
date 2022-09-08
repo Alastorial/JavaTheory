@@ -9,9 +9,9 @@ public class Main {
         int[] arr = new int[2];
 //        String s = "hello %s", "world";
         System.out.printf("hello %s%n", "world");
-        System.out.printf("hello %s", "world");
-
-
+        System.out.printf("hello %s", "world\n");
+        Test test = new Test("sasha", 18);
+        System.out.println(test.toString());
 
 
     }
