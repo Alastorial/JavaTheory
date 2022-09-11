@@ -8,9 +8,7 @@ public class Main {
         int n = sc.nextInt();
         int k = 1;
         int m;
-        while (true) {
-            m = (2)
-        }
+
         int ans = 0;
     }
 }
