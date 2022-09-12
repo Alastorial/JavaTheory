@@ -6,6 +6,8 @@ public class Main {
         Dog dog = new Dog();
 //        Animal animal = new Animal(); // не можем тк класс абстрактный, просто концепция животного
         cat.eat();
+        Animal animal = new Cat();
+        animal.makeSound();
     }
 }
 

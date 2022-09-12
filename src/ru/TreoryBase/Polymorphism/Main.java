@@ -21,6 +21,7 @@ public class Main {
 
     }
 
+
     public static void test(Animal animal) {
         animal.eat();
     }
