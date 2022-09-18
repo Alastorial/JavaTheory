@@ -92,7 +92,7 @@ public class Main {
         int n = sc.nextInt();
         List<Integer> arr = new ArrayList<>();
         for (int i = 0; i < n; i++) {
-            arr.add(random.nextInt(0, 10));
+            arr.add(random.nextInt( 10));
             System.out.print(arr.get(i) + " ");
         }
         System.out.print("\nДлина массива: ");
